@@ -7,7 +7,7 @@ module.exports.run = async ({ client, channel, message, author }) => {
 
 exports.help = {
 	name: "profile",
-	aliases: ['prof'],
+	aliases: ['prof', 'perfil'],
 	description: "mostra perfil de um membro",
 	usage: 'perfil [@membro]'
 };

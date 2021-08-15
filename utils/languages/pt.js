@@ -6,6 +6,21 @@ module.exports = async (client) => {
             quantDelete: "Eu apaguei um total de: +apagadas+ mensagem.",
             error: "Parece que algo deu errado: +err+"
         },
+
+        ban: {
+            perm: "Você não tem permissão para usar este comando.",
+            invalidMember: "Digite um membro válido.",
+            punishMessage: "Voce deseja banir o membro +target+ pelo motivo `+motivo+` ?.",
+            error: "Parece que algo deu errado: +err+"
+        },
+
+        kick: {
+            perm: "Você não tem permissão para usar este comando.",
+            invalidMember: "Digite um membro válido.",
+            punishMessage: "Voce deseja expulsar o membro +target+ pelo motivo `+motivo+` ?.",
+            error: "Parece que algo deu errado: +err+"
+        },
+
         //
         config: {
             contador: "Contador de membros:",

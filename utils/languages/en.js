@@ -6,6 +6,21 @@ module.exports = async (client) => {
             quantDelete: "I deleted a total of +apagadas+ message.",
             error: "It looks like something went wrong: +err+"
         },
+
+        ban: {
+            perm: "You are not allowed to use this command.",
+            invalidMember: "Please enter a valid member.",
+            punishMessage: "Do you want to ban the +target+ for the reason `+motivo+` ?.",
+            error: "It looks like something went wrong: +err+"
+        },
+
+        kick: {
+            perm: "You are not allowed to use this command.",
+            invalidMember: "Please enter a valid member.",
+            punishMessage: "Do you want to kick the +target+ for the reason `+motivo+` ?.",
+            error: "It looks like something went wrong: +err+"
+        },
+
         //
         config: {
             contador: "Member Count:",
