@@ -1,0 +1,32 @@
+{
+  "name": "wu zi mu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wuzimu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "canvas": "^2.8.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
+    "cowsay": "^1.5.0",
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "gifencoder": "^2.0.1",
+    "is-image-url": "^1.1.8",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mysql": "^2.18.1",
+    "snekfetch": "^4.0.4",
+    "uuid": "^8.3.2",
+    "weather-js": "^2.0.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
